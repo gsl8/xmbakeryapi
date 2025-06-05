@@ -1,0 +1,45 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "XM ",
+    "collectionId": "b6161f02-9c1d-49ea-a12c-ab1abff1368e",
+    "dateExported": "2025-06-05T09:05:21.087Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2a1f9fbe-57f5-4735-a28c-d789e801a609",
+            "colId": "b6161f02-9c1d-49ea-a12c-ab1abff1368e",
+            "containerId": "",
+            "name": "User Registration",
+            "url": "http://localhost:3000/api/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-06-05T08:54:34.526Z",
+            "modified": "2025-06-05T08:54:34.526Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"hirwalionel1@gmail.com\",\n  \"password\": \"Passwor@1\",\n  \"role\": \"customer\",\n  \"name\": \" Lionel\",\n  \"bakeryId\": null\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "b9d7416f-a34d-4142-8f71-2d6be2c91faa",
+            "colId": "b6161f02-9c1d-49ea-a12c-ab1abff1368e",
+            "containerId": "",
+            "name": "User Login",
+            "url": "http://localhost:3000/api/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-06-05T09:02:27.194Z",
+            "modified": "2025-06-05T09:02:27.195Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"hirwalionel1@gmail.com\",\n  \"password\": \"Passwor@1\"\n}\n",
+                "form": []
+            }
+        }
+    ],
+    "ref": "WC3iByV3hS54wisenV6oQADqCEIKaUxdCaPbN_k8HjMAy_GffALu9DRjfHKqvWTLjmD9rVqclwMc41fQeEFxbw"
+}
